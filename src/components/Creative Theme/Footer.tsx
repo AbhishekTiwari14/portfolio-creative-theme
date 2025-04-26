@@ -96,7 +96,7 @@ export default function Footer({
           </motion.svg>
         </a>
         <a
-          href={Gmail}
+          href={`mailto:${Gmail}`}
           target="_blank"
           className="text-white p-4 bg-gray-800 hover:bg-blue-600 overflow-hidden"
           onMouseEnter={() => startAnimation("gmail")}
