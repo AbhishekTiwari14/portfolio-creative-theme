@@ -9,9 +9,9 @@ function Globe() {
 
   // Load earth textures
   const textures = useTexture({
-    map: "/map.jpg",
-    bumpMap: "/bump_map.jpg",
-    specularMap: "/specular_map.jpg",
+    map: "./map.jpg",
+    bumpMap: "./bump_map.jpg",
+    specularMap: "./specular_map.jpg",
   })
 
   // Add subtle auto-rotation when not interacting
